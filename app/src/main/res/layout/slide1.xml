@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen1"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/calendar"
+        android:id="@+id/imageView"
+        android:layout_height="100dp" />
+
+    <Space android:layout_height="50dp"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:text="Manage your class schedule!"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:textStyle="bold"
+
+        android:id="@+id/textView2" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:text="With Test Time you can also manage your schedule so you will know which class is happening right now"
+        android:textSize="16dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+</LinearLayout>

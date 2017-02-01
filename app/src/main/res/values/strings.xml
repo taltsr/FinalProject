@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="next">Next</string>
+    <string name="welcome">Welcome to TestTime</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_wc"></string>
+</resources>
