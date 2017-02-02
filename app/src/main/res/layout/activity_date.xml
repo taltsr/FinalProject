@@ -56,12 +56,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView4"
+        android:onClick="SetClass"
         android:textSize="20dp"
         android:textColor="@android:color/black"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="setClass"
         android:id="@+id/tvclass" />
 
     <Space
